@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                bat 'copy index.html C:\\Users\\YourName\\deploy\\'
+                bat 'copy index.html C:\\Users\\hresa\\deploy\\'
             }
         }
     }
